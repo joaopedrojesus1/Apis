@@ -1,0 +1,339 @@
+/*---------------------- Parte inicial -------------------------*/
+
+.container-inicio {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#h1-index {
+  font-size: 24px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  margin-bottom: 15px;
+  flex-basis: 50%;
+}
+
+#temp button {
+  background-color: #5794d4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+#musica button {
+  background-color: #c411c4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+#nasa button {
+  background-color: #140c1b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+#trad button {
+  background-color: #9993d1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+#covid button {
+  background-color: #27b62e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/*------------------------Parte da Musica---------------------- */
+#body-music {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #140c1b;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+#logo1 {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  background-color: #4ed153;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #3e8e41;
+}
+
+.musica {
+  margin-top: 20px;
+}
+
+#imagemartista {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+/* -----------------Parte da Temperatura------------------ */
+
+@keyframes moveClouds {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+
+#body-temp {
+  background-image: url('img/fundo azul.avif');
+  background-repeat: repeat-x;
+  animation: moveClouds 60s linear infinite;
+}
+
+.container-temp {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-image: url('img/fundo azul.avif');
+  background-repeat: repeat-x;
+  background-size: 0%; /* Tamanho reduzido da imagem */
+  padding: 20px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+
+#cityInput{
+  padding: 10px;
+}
+
+.button-temp {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4c99eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#backButton {
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4c99eb;
+}
+
+
+/* --------------------Parte da Nasa-------------------- */
+#body-nasa{
+  background-image: url(img/fundo-estrelas.jpg);
+  text-align: center;
+}
+#h1-nasa {
+  font-size: 24px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #fff;
+}
+
+.button-nasa {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4c99eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* -----------------Parte tradutor----------------- */
+#body-trad {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-image: url(img/fundo-linguas.avif);
+  background-size: 1400px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+#h1-trad {
+  text-align: center;
+  color: #333;
+}
+
+#text {
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-trad {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  color: #333;
+}
+
+#translatedText {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+/* ------------------Parte Covid--------------------- */
+#h1-covid {
+  text-align: center;
+  color: #ffffff;
+
+}
+.button-covid {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container-covid{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-size: 700px;
+  background-image: url(img/covid.jpg);
+  padding: 20px;
+  display: inline-block;
+  margin-top: 10%;
+  text-align: center;
+}
+#body-covid {
+  background-image: url(img/coronavirus.webp);
+  background-size: 2100px;
+  text-align: center;
+
+}
+#cases{
+  color: #fff;
+}
+
+#deaths{
+  color: #fff;
+}
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor de Texto</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body-trad">
+    <div class="row">
+        <a href="index.html"><button id="backButton">Voltar</button></a>
+    </div>
+    <div class="container-trad">
+        <h1 id="h1-trad">Tradutor de Texto</h1>
+        <textarea id="text" rows="5" cols="50"></textarea>
+        <br>
+        <label for="sourceLanguage">Idioma de Origem:</label>
+        <select id="sourceLanguage">
+            <option value="por">Português</option>
+            <option value="en">Inglês</option>
+            <option value="es">Espanhol</option>
+            <option value="fr">Francês</option>
+            <!-- Adicione outros idiomas que você deseja suportar -->
+        </select>
+        <br>
+        <label for="targetLanguage">Idioma de Destino:</label>
+        <select id="targetLanguage">
+            <option value="por">Português</option>
+            <option value="en">Inglês</option>
+            <option value="es">Espanhol</option>
+            <option value="fr">Francês</option>
+            <!-- Adicione outros idiomas que você deseja suportar -->
+        </select>
+        <br>
+        <button class="button-trad"id="translateBtn">Traduzir</button>
+        <br>
+        <h2>Texto Traduzido:</h2>
+        <div id="translatedText"></div>
+    </div>
+    <script src="trd.js"></script>
+</body>
+</html>
+
+
+<!-- tu es explendido -->
+<!-- Eu sou  -->
+<!-- tu es belissimo -->
